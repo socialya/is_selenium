@@ -1,9 +1,9 @@
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
 
-from web_xiaoan.base.basepage import BasePage
-from web_xiaoan.common.read_config import read_config
-from web_xiaoan.page.main import Main
+from base.basepage import BasePage
+from common.read_config import read_config
+from page.main import Main
 
 run=read_config()['run']
 class Web(BasePage):
