@@ -2,10 +2,7 @@ from time import sleep
 
 import pytest
 
-from web_xiaoan.common.web import Web
-from web_xiaoan.page import main
-from web_xiaoan.page.main import Main
-from web_xiaoan.test_cases.basecase import BaseCase
+from test_cases.basecase import BaseCase
 
 
 class Test_login(BaseCase):

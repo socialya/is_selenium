@@ -1,5 +1,4 @@
-from web_xiaoan.base.basepage import BasePage
-from web_xiaoan.common.web import Web
+from common.web import Web
 
 
 class BaseCase():
