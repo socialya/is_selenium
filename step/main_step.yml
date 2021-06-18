@@ -1,0 +1,6 @@
+goto_login:
+  - by: link text
+    locator: "请登录"
+    action: click
+    loc: "首页_点击请登录"
+

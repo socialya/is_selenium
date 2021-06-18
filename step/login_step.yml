@@ -1,0 +1,28 @@
+login:
+  - by: id
+    locator: "username"
+    action: send
+    value: ${username}
+    loc: "登录页_输入用户名"
+  - by: id
+    locator: "nloginpwd"
+    action: send
+    value: ${pwd}
+    loc: "登录页_输入密码"
+  - by: id
+    locator: "loginSubmit"
+    action: click
+    loc: "登录页_点击登录"
+
+get_login_err_toast:
+  - by: class name
+    locator: "msg-error"
+    action: get_text
+    loc: "登录页_获取登录失败提示信息"
+
+
+get_success_toast:
+  - by: xpath
+    locator: "//div[@class='txt-info']/span[1]/a"
+    action: get_text
+    loc: "首页_获取登录成功后的昵称"

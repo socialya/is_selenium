@@ -1,0 +1,7 @@
+run:
+  broser: chrome
+#  是否启用无头浏览器模式
+  is_headless: false
+
+#driver:
+#  chromedriver_path:
